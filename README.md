@@ -5,6 +5,22 @@
 
 ---
 
+## Screenshots
+
+### Login
+![Login screen](screenshots/login.png)
+
+### Signup
+![Signup screen](screenshots/signup.png)
+
+### Employees
+![Employees screen](screenshots/emps.png)
+
+### Schedule
+![Schedule screen](screenshots/schedule.png)
+
+---
+
 ## Key Features  
 - **Role-Based Access and Authentication**  
   Secure login and permissions for administrators, lecturers, tutors, and students.  
