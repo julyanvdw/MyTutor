@@ -1,0 +1,112 @@
+@import "theme-editor.css";
+@import url('./main-layout.css');
+
+/*******************************************************************/
+
+@media (max-height: 600px) or (max-width: 450px) {
+    .welcome-view {
+        transform: scale(0.9);
+    }
+
+    .logo-image {
+        width: 400px !important;
+    }
+}
+
+@media (max-height: 550px) {
+    .welcome-view {
+        transform: scale(0.8);
+    }
+
+    .logo-image {
+        width: 350px !important;
+    }
+}
+
+@media (max-height: 450px) {
+    .welcome-view {
+        transform: scale(0.7);
+    }
+
+    .logo-image {
+        width: 350px !important;
+    }
+}
+
+@media (max-width: 350px) {
+    .welcome-view {
+        transform: scale(0.8);
+    }
+
+    .logo-image {
+        width: 350px !important;
+    }
+}
+
+.logo-image {
+    display: block;
+    width: 450px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.welcome-heading {
+    text-align: center;
+}
+
+/*******************************************************************/
+
+.side-logo-image {
+    height: auto;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.side-nav-text {
+    padding-left: 10px;
+}
+
+/*******************************************************************/
+
+@media (max-width: 300px) {
+    .management-view {
+        transform: scale(0.9);
+    }
+}
+
+/*******************************************************************/
+
+.course-block-container {
+    width: 100%;
+    margin: 0px 20px 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.course-block {
+    width: 30%;
+    min-width: 300px;
+    padding: 35px;
+    font-size: 25px;
+    white-space: normal;
+    max-width: 100%;
+}
+
+/*******************************************************************/
+
+vaadin-button {
+    cursor: pointer;
+}
+
+vaadin-grid {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+vaadin-grid::part(header-cell) {
+
+    font-weight: bolder;
+    font-stretch: ultra-condensed;
+}
