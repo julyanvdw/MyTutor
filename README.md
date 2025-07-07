@@ -46,7 +46,7 @@
 
 ## Project Team  
 This project was completed as part of the **2023 Undergraduate Computer Science Capstone** at UCT:  
-- **Julyan van der Westhuizen (VWSJUL003)**  
+- **Julyan van der Westhuizen (VWSJUL003)** - Team Lead  
 - **Cassandra Wallace (WLLCAS004)**  
 - **Ethan Wilson (WLSETH003)**
 
@@ -65,7 +65,7 @@ Alternative repository location:
 - Maven installed
 
 ### Important Notes  
-- This application is not currently deployed online. To evaluate the system, it must be run locally.
+- This application is no longer deployed on Google Cloud. To evaluate the system, it must be run locally.
 
 ### Test User Accounts  
 | Role               | Email                     | Password |  
@@ -84,16 +84,11 @@ Alternative repository location:
 
 ---
 
-### Project Contents  
-- **VWSJUL003_WLLCAS004_WLSETH003_Report.pdf** — Comprehensive project documentation.  
-- **VWSJUL003_WLLCAS004_WLSETH003_code.tar.gz** — Source code archive.  
-- **Code Excerpts Folder** — Contains Java source files for easy access and review.
-
----
-
 ### Running the Application  
 1. Clone the repository.  
-2. Extract the source code archive:  
-   ```bash
-   tar -xvzf VWSJUL003_WLLCAS004_WLSETH003_code.tar.gz  
-   cd mytutor  
+2. Ensure you're in the mytutor directory.
+3. Run 'mvn' command. 
+
+Note, to clean the complication run: 'mvn clean install'. This will clean the project and re-run the tests - preparing it for the next run.
+
+
