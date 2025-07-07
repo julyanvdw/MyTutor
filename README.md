@@ -1,4 +1,4 @@
-# MyTutor 🎓
+# MyTutor - Tutor Support Platform
 
 ## Overview  
 **MyTutor** is a web-based application developed to enhance the management of Tutors and Teaching Assistants (TAs) at the University of Cape Town (UCT). The platform streamlines the application process, scheduling, and administrative workflows. Built using **Java**, **Vaadin**, and **Spring Boot**, MyTutor delivers a secure, modular, and scalable solution for students, lecturers, and course administrators.
